@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.scss';
 import { Home } from './views/home/Home';
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import { Error404 } from './views/error404/Error404';
 
 class App extends React.Component {
